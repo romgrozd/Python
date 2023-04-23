@@ -11,6 +11,10 @@ def main_prog():
             func.search_contact()
         elif a == '3':
             func.print_all()
+        elif a == '4':
+            func.change_contact(interface.get_change_contact())
+        elif a == '5':
+            func.del_contact(interface.get_del_contact())    
         else:
             flag = False       
 
